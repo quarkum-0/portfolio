@@ -9,6 +9,8 @@ import TransitionEffect from "@/components/TransitionEffect";
 import Proj1 from "../../public/images/projects/Proj1.png";
 import Proj2 from "../../public/images/projects/Proj2.png";
 import Proj3 from "../../public/images/projects/Proj3.png";
+import Proj4 from "../../public/images/projects/Proj4.png";
+import Proj5 from "../../public/images/projects/Proj5.png";
 
 const FramerImage = motion(Image);
 
@@ -121,8 +123,24 @@ export default function Projects() {
             <div className="col-span-6 sm:col-span-12">
             <Project
                 type="Website"
-                title="Word-Pied"
+                title="ACM Website"
                 img={Proj3}
+                link="https://bitshyderabad.acm.org/"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+            <Project
+                type="Website"
+                title="Uni-Site"
+                img={Proj4}
+                link="https://uni-site.vercel.app/"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+            <Project
+                type="Website"
+                title="Word-Pied"
+                img={Proj5}
                 link="https://word-pied.vercel.app/"
               />
             </div>
