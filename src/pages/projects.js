@@ -11,6 +11,7 @@ import Proj2 from "../../public/images/projects/Proj2.png";
 import Proj3 from "../../public/images/projects/Proj3.png";
 import Proj4 from "../../public/images/projects/Proj4.png";
 import Proj5 from "../../public/images/projects/Proj5.png";
+import Proj6 from "../../public/images/projects/Proj6.png";
 
 const FramerImage = motion(Image);
 
@@ -130,7 +131,7 @@ export default function Projects() {
             </div>
             <div className="col-span-6 sm:col-span-12">
             <Project
-                type="Website"
+                type="Website Template"
                 title="Uni-Site"
                 img={Proj4}
                 link="https://uni-site.vercel.app/"
@@ -139,8 +140,16 @@ export default function Projects() {
             <div className="col-span-6 sm:col-span-12">
             <Project
                 type="Website"
-                title="Word-Pied"
+                title="Recorder"
                 img={Proj5}
+                link="https://recordingsite.vercel.app/"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+            <Project
+                type="Website"
+                title="Word-Pied"
+                img={Proj6}
                 link="https://word-pied.vercel.app/"
               />
             </div>
